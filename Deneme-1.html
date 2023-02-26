@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formlar</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz.</h1>
+    <p>
+        <hr>
+        <h3>Hesap Bilgileriniz</h3>
+        <p>
+            <form action="/home/register">
+
+                <p>
+                    Kullanızı Adı: <input type="text" name="kullanıcı adı" placeholder="Kullanıcı adı giriniz" required>
+                </p>
+                <p>
+                    Eposta: <input type="email" name="email" placeholder="E-posta giriniz" required>
+                </p>
+                <p>
+                    Parola: <input type="password" name="şifre" placeholder="Parola giriniz" required> 
+                </p>
+                <p>
+                    <label for="time">
+
+
+                        <p>
+                            <h3>Kişisel Bilgileriniz</h3>
+                            <p>
+                                <p>
+                                    Ad: <input type="text" name="Ad" required>
+                                </p>
+                                <p>
+                                    Soyad: <input type="text" name="Soyad" required>
+                                </p>
+                                <p>
+                                    <select mutiple name="şehirler">
+                                        <option>Ankara</option>
+                                        <option>İstanbul</option>
+                                        <option>Muğla</option>
+                                        <option>Konya</option>
+                                        <option>Antalya</option>
+                                        <option>Isparta</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    Cinsiyet:
+                                    Kadın: <input type="radio" name="Cinsiyet">
+                                    Erkek: <input type="radio" name="Cinsiyet">
+                                </p>
+                                <p>
+                                    Hobileriniz:
+                                    Sinema <input type="checkbox">
+                                    Gezmek <input type="checkbox">
+                                    Spor <input type="checkbox">
+                                    Kitap <input type="checkbox">
+                                </p>
+                                <input type="submit" valve="kaydet">
+                                <input type="reset">
+
+            </form>
+</body>
+
+</html>
